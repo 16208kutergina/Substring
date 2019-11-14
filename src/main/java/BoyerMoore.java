@@ -6,7 +6,7 @@ import java.util.HashMap;
 class BoyerMoore {
     static boolean isFoundSubstringIntoFile(String text, FileReader file) {
         try {
-            int bufSize = 512;
+            int bufSize = 2024;
             var in = new BufferedReader(file);
             int bytesRead;
             var myBuffer = new char[bufSize + text.length()];

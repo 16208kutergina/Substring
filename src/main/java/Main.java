@@ -1,22 +1,6 @@
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-
 public class Main {
 
     public static void main(String[] args) {
-//        try {
-//            FileReader fileReader = new FileReader("C:\\Users\\kuter\\yourfilehere.dat");
-//            int bufSize = 512;
-//            var in = new BufferedReader(fileReader);
-//            var myBuffer = new char[bufSize];
-//                int read = in.read(myBuffer, 0, bufSize);
-//            System.out.println(myBuffer);
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-
         if (args.length < 3) {
             printOptions();
             return;
